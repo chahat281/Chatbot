@@ -2,7 +2,7 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 40,
+   "execution_count": 6,
    "id": "7fca61db-72bc-4c65-9bfd-9560dfe28667",
    "metadata": {},
    "outputs": [],
@@ -50,7 +50,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 42,
+   "execution_count": 7,
    "id": "18d9bdcb-259e-4308-8443-2307fc19fcfd",
    "metadata": {
     "scrolled": True
@@ -7692,7 +7692,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 4,
+   "execution_count": 21,
    "id": "243b13eb-9a07-4b02-8713-89af14ec93e7",
    "metadata": {
     "scrolled": True
@@ -7715,7 +7715,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 5,
+   "execution_count": 22,
    "id": "1740a309-1519-4521-8ce8-e220ff5b4ab3",
    "metadata": {
     "scrolled": True
@@ -7841,7 +7841,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 6,
+   "execution_count": 23,
    "id": "f9253589-515b-4936-ac56-df768ff67225",
    "metadata": {
     "scrolled": True
@@ -7904,7 +7904,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 7,
+   "execution_count": 24,
    "id": "e2ad6f8b-e512-495f-8441-dc0c179fff1e",
    "metadata": {
     "scrolled": True
@@ -7955,7 +7955,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 8,
+   "execution_count": 25,
    "id": "a94c4674-9863-4045-8103-192aa19fe15a",
    "metadata": {
     "scrolled": True
@@ -7965,7 +7965,8 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Requirement already satisfied: ipywidgets in c:\\users\\chahat\\anaconda3\\lib\\site-packages (7.8.1)\n",
+      "Requirement already satisfied: ipywidgets in c:\\users\\chahat\\anaconda3\\lib\\site-packages (7.8.1)Note: you may need to restart the kernel to use updated packages.\n",
+      "\n",
       "Requirement already satisfied: comm>=0.1.3 in c:\\users\\chahat\\anaconda3\\lib\\site-packages (from ipywidgets) (0.2.1)\n",
       "Requirement already satisfied: ipython-genutils~=0.2.0 in c:\\users\\chahat\\anaconda3\\lib\\site-packages (from ipywidgets) (0.2.0)\n",
       "Requirement already satisfied: traitlets>=4.3.1 in c:\\users\\chahat\\anaconda3\\lib\\site-packages (from ipywidgets) (5.14.3)\n",
@@ -8059,8 +8060,7 @@
       "Requirement already satisfied: cffi>=1.0.1 in c:\\users\\chahat\\anaconda3\\lib\\site-packages (from argon2-cffi-bindings->argon2-cffi>=21.1->jupyter-server<3,>=2.4.0->notebook>=4.4.1->widgetsnbextension~=3.6.6->ipywidgets) (1.17.1)\n",
       "Requirement already satisfied: soupsieve>1.2 in c:\\users\\chahat\\anaconda3\\lib\\site-packages (from beautifulsoup4->nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->notebook>=4.4.1->widgetsnbextension~=3.6.6->ipywidgets) (2.5)\n",
       "Requirement already satisfied: pycparser in c:\\users\\chahat\\anaconda3\\lib\\site-packages (from cffi>=1.0.1->argon2-cffi-bindings->argon2-cffi>=21.1->jupyter-server<3,>=2.4.0->notebook>=4.4.1->widgetsnbextension~=3.6.6->ipywidgets) (2.21)\n",
-      "Requirement already satisfied: arrow>=0.15.0 in c:\\users\\chahat\\anaconda3\\lib\\site-packages (from isoduration->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook>=4.4.1->widgetsnbextension~=3.6.6->ipywidgets) (1.2.3)\n",
-      "Note: you may need to restart the kernel to use updated packages.\n"
+      "Requirement already satisfied: arrow>=0.15.0 in c:\\users\\chahat\\anaconda3\\lib\\site-packages (from isoduration->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook>=4.4.1->widgetsnbextension~=3.6.6->ipywidgets) (1.2.3)\n"
      ]
     }
    ],
@@ -8078,7 +8078,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 10,
+   "execution_count": 28,
    "id": "34ed0283-15ed-4cf5-a752-ed93de315ee1",
    "metadata": {},
    "outputs": [
@@ -8086,7 +8086,7 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "C:\\Users\\Chahat\\AppData\\Local\\Temp\\ipykernel_10592\\3692003024.py:26: LangChainDeprecationWarning: The class `HuggingFaceEmbeddings` was deprecated in LangChain 0.2.2 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-huggingface package and should be used instead. To use it run `pip install -U :class:`~langchain-huggingface` and import as `from :class:`~langchain_huggingface import HuggingFaceEmbeddings``.\n",
+      "C:\\Users\\Chahat\\AppData\\Local\\Temp\\ipykernel_4876\\2829473055.py:26: LangChainDeprecationWarning: The class `HuggingFaceEmbeddings` was deprecated in LangChain 0.2.2 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-huggingface package and should be used instead. To use it run `pip install -U :class:`~langchain-huggingface` and import as `from :class:`~langchain_huggingface import HuggingFaceEmbeddings``.\n",
       "  embeddings_model = HuggingFaceEmbeddings(model_name=\"sentence-transformers/all-MiniLM-L6-v2\")\n"
      ]
     },
@@ -8106,7 +8106,7 @@
     "import numpy as np\n",
     "\n",
     "# Path to your PDFs\n",
-    "pdf_folder = \"pdf files\"\n",
+    "pdf_folder = \"assets\"\n",
     "\n",
     "def extract_text_from_pdf(pdf_path):\n",
     "    \"\"\"Extract text from a PDF file.\"\"\"\n",
@@ -8152,7 +8152,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 12,
+   "execution_count": 30,
    "id": "36a568b7-0ec2-453e-8274-2ea10c4c59bc",
    "metadata": {},
    "outputs": [
@@ -8201,23 +8201,10 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 14,
+   "execution_count": 32,
    "id": "d09165d8-2d94-4db0-a334-479b5ab1756a",
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stderr",
-     "output_type": "stream",
-     "text": [
-      "2024-11-19 11:40:01.100 \n",
-      "  \u001b[33m\u001b[1mWarning:\u001b[0m to view this Streamlit app on a browser, run it with the following\n",
-      "  command:\n",
-      "\n",
-      "    streamlit run C:\\Users\\Chahat\\anaconda3\\Lib\\site-packages\\ipykernel_launcher.py [ARGUMENTS]\n",
-      "2024-11-19 11:40:01.113 Session state does not function when running a script without `streamlit run`\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "import streamlit as st\n",
     "\n",
@@ -8247,26 +8234,24 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 44,
-   "id": "b9a04c6b-2b1b-4911-948f-334e36d1911c",
+   "execution_count": 36,
+   "id": "2b018e2d-3818-49ae-91ca-432905015459",
    "metadata": {},
    "outputs": [],
    "source": [
     "import streamlit as st\n",
-    "import requests\n",
     "import fitz  # PyMuPDF\n",
+    "import requests\n",
     "\n",
-    "# Function to download and process a PDF file from GitHub\n",
-    "def process_pdf(pdf_url, local_filename):\n",
+    "# Function to download and process the PDF file\n",
+    "def process_pdf(pdf_url):\n",
     "    response = requests.get(pdf_url)\n",
-    "\n",
     "    if response.status_code == 200:\n",
-    "        # Save the PDF file locally\n",
-    "        with open(local_filename, \"wb\") as f:\n",
+    "        with open(\"temp.pdf\", \"wb\") as f:\n",
     "            f.write(response.content)\n",
-    "\n",
+    "        \n",
     "        # Process the PDF\n",
-    "        doc = fitz.open(local_filename)\n",
+    "        doc = fitz.open(\"temp.pdf\")\n",
     "        text = \"\"\n",
     "        for page in doc:\n",
     "            text += page.get_text()\n",
@@ -8275,30 +8260,20 @@
     "    else:\n",
     "        return None\n",
     "\n",
-    "# URLs for the PDF files on GitHub\n",
+    "# Streamlit UI elements\n",
+    "st.title(\"PDF Text Extractor\")\n",
     "pdf_urls = [\n",
     "    \"https://raw.githubusercontent.com/chahat281/Chatbot/main/assets/goog-10-k-2023%20(1).pdf\",\n",
     "    \"https://raw.githubusercontent.com/chahat281/Chatbot/main/assets/tsla-20231231-gen.pdf\",\n",
     "    \"https://raw.githubusercontent.com/chahat281/Chatbot/main/assets/uber-10-k-2023.pdf\"\n",
     "]\n",
-    "# Process each PDF file and display the text in Streamlit\n",
-    "for i, pdf_url in enumerate(pdf_urls):\n",
-    "    st.write(f\"**Processing PDF {i + 1}:**\")\n",
-    "    text = process_pdf(pdf_url, f\"file{i + 1}.pdf\")\n",
-    "    \n",
-    "    if text:\n",
-    "        st.text_area(f\"Text from PDF {i + 1}\", text, height=300)\n",
-    "    else:\n",
-    "        st.error(f\"Failed to download or process PDF {i + 1}.\")\n"
+    "text = process_pdf(pdf_url)\n",
+    "\n",
+    "if text:\n",
+    "    st.text_area(\"Extracted Text\", text, height=300)\n",
+    "else:\n",
+    "    st.error(\"Failed to download or process PDF.\")\n"
    ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": None,
-   "id": "2b018e2d-3818-49ae-91ca-432905015459",
-   "metadata": {},
-   "outputs": [],
-   "source": []
   },
   {
    "cell_type": "code",
